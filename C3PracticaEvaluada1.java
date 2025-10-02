@@ -16,21 +16,21 @@ public class C3PracticaEvaluada1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    //Solicitar_nombre_de_persona
-         String nombreEmpleado=JOptionPane.showInputDialog("Digite su nombre:");
-         String apellidoEmpleado=JOptionPane.showInputDialog("Digite su apellido:");
+          //Solicitar_nombre_de_persona
+        String nombreEmpleado = JOptionPane.showInputDialog("Digite el nombre del empleado");
+        String apellidoEmpleado = JOptionPane.showInputDialog("Digite su apellido");
         
         //Ingresar_salario_individual
-         String salarioEmpleado=JOptionPane.showInputDialog("Ingrese el salario");
-         double salario = Double.parseDouble(salarioEmpleado);
+        String salarioEmpleado = JOptionPane.showInputDialog("Ingrese el salario");
+        double salario = Double.parseDouble(salarioEmpleado);
                 
-         //Calcular_SEM_CCSS
-         double calculoSEM = salario * 0.925;
+        //Calcular_SEM_CCSS
+        double calculoSEM = salario * 0.0925;
          
-         //Calcular_IVM_CCSS
-         double calculoIVM = salario * 0.508;
+        //Calcular_IVM_CCSS
+        double calculoIVM = salario * 0.0508;
          
-         //Calcular_impuestosalario_CCSS
+        //Calcular_impuestosalario_CCSS
         double impuestoSalario = 0;
         
         if (salario > 2373000) {
@@ -61,36 +61,7 @@ public class C3PracticaEvaluada1 {
                         String.format("%.2f", salarioFinal);
         
         JOptionPane.showMessageDialog(null, mensaje);
-        // TODO code application logic here
     }
+    }// TODO code application logic here
     
-}
-
-         
-         
-         
-         
-        
-         
-
-
-                 
-      
-                 
-         
-        
-         
-         
-         
-         
-         
-         
-                
-                
-        
-                               
-      
-        
-        
-     
 
